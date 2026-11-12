@@ -1,0 +1,58 @@
+{
+  "random_seed": 42,
+  "split_ratio": {
+    "train": 0.8,
+    "valid": 0.1,
+    "test": 0.1
+  },
+  "classes": {
+    "0": "cat",
+    "1": "dog",
+    "2": "backpack",
+    "3": "book",
+    "4": "box",
+    "5": "chair",
+    "6": "fan",
+    "7": "fork",
+    "8": "glass",
+    "9": "plate",
+    "10": "spoon",
+    "11": "table",
+    "12": "vase"
+  },
+  "image_counts": {
+    "train": 5553,
+    "valid": 694,
+    "test": 695
+  },
+  "source_counts": {
+    "train_household": 4092,
+    "train_pet": 1461,
+    "valid_household": 543,
+    "valid_pet": 151,
+    "test_pet": 193,
+    "test_household": 502
+  },
+  "instance_counts": {
+    "backpack": 1265,
+    "dog": 906,
+    "book": 2302,
+    "fork": 706,
+    "spoon": 674,
+    "chair": 427,
+    "table": 464,
+    "cat": 944,
+    "fan": 562,
+    "glass": 403,
+    "plate": 496,
+    "box": 462,
+    "vase": 412
+  },
+  "notes": [
+    "Pet class IDs were kept as 0=cat and 1=dog.",
+    "Household class IDs were remapped by +2.",
+    "Images without useful labels were skipped.",
+    "File names were prefixed with pet_ or house_ to avoid name collisions.",
+    "A new 80/10/10 split was created using random seed 42."
+  ]
+}

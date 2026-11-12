@@ -1,0 +1,19 @@
+path: .
+train: train/images
+val: valid/images
+test: test/images
+nc: 13
+names:
+  0: cat
+  1: dog
+  2: backpack
+  3: book
+  4: box
+  5: chair
+  6: fan
+  7: fork
+  8: glass
+  9: plate
+  10: spoon
+  11: table
+  12: vase
